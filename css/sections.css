@@ -96,8 +96,9 @@
   font-family: var(--f-script);
   font-size: clamp(3.4rem, 2rem + 10vw, 7.6rem);
   line-height: .95;
-  padding: 0 .15em;
-  margin-bottom: -.12em;
+  /* Espacio extra para que los trazos de la letra manuscrita no se recorten con el degradado */
+  padding: .3em .25em .1em;
+  margin: -.3em 0 -.22em;
   color: var(--oro-claro);
   background: var(--grad-oro);
   background-size: 220% 100%;

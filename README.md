@@ -14,6 +14,10 @@ Todo el contenido está en **`js/config.js`**: textos, fecha, horarios, lugares,
 - **Cuenta regresiva y «Agregar al calendario»:** completa `fechaISO` (p. ej. `"2026-12-19T08:00:00-06:00"`). Si está vacío, ambos se ocultan.
 - **Indicaciones:** si borras el texto de `nota`, ese párrafo se oculta.
 
+### Si los cambios no se ven en el celular
+
+GitHub Pages permite que el navegador guarde los archivos hasta 10 minutos, así que un cambio puede tardar en verse. Para que todos reciban la versión nueva enseguida, en `index.html` sube el número `?v=2` → `?v=3` (en todas las líneas de `css/` y `js/`) cada vez que publiques un cambio.
+
 ## Música
 
 `assets/audio/villancico.mp3` es un arreglo instrumental original de «Noche de paz» (Franz X. Gruber, 1818, dominio público). Se generó por síntesis, así que no tiene derechos de terceros. Está preparado para repetirse sin cortes.
